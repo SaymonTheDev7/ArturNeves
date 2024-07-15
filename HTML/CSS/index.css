@@ -5,8 +5,82 @@
 
 }
 
+header {
+
+    background-color: #fcfaee;
+
+}
+
 .header {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10vw;
+
+}
+
+header img {
+
+    width: 30px;
+    height: 30px;
+
+}
+
+.logo img {
+
+    width: 105px;
+    height: 105px;
+    padding: 20px;
+
+}
+
+main {
+
+    background: linear-gradient(to bottom, #071A2B, #39648a);
+    height: 100vh;
+    margin: 0;
+
+}
+
+.biography {
+
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+
+.biography h1 {
+
+    font-family: "Merriweather", serif;
+    font-size: 25px;
+    color: #FFFF;
+
+}
+
+.biography span {
+
+    color: #18a3df;
+
+}
+
+.biography p {
+
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    text-align: left;
+    text-align: start;
+    text-align: justify;
+    padding-top: 20px;
+    width: 85%;
+
+}
+
+.biography img {
 
     width: 300px;
+    border-radius: 40px;
+    padding-top: 20px;
 
 }
