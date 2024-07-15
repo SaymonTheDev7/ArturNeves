@@ -1,0 +1,45 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+
+    background-color: #fcfaee;
+
+}
+
+.header {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10vw;
+
+}
+
+header img {
+
+    width: 30px;
+    height: 30px;
+
+}
+
+.logo img {
+
+    width: 105px;
+    height: 105px;
+    padding: 20px;
+
+}
+
+main {
+
+    background: linear-gradient(to bottom, #071A2B, #39648a);
+    height: 400vh;
+    margin: 0;
+
+}

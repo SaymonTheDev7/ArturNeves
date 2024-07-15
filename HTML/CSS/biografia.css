@@ -39,12 +39,12 @@ header img {
 main {
 
     background: linear-gradient(to bottom, #071A2B, #39648a);
-    height: 190vh;
+    height: 400vh;
     margin: 0;
 
 }
 
-.biography {
+.texts {
 
     display: flex;
     flex-direction: column;
@@ -52,22 +52,16 @@ main {
 
 }
 
-.biography h1 {
+.texts h1 {
 
     font-family: "Merriweather", serif;
     font-size: 25px;
-    color: #FFFF;
+    color: #18a3df;
     padding-top: 20px;
 
 }
 
-.biography span {
-
-    color: #18a3df;
-
-}
-
-.biography p {
+.texts p {
 
     color: white;
     font-family: "Quicksand", sans-serif;
@@ -77,30 +71,11 @@ main {
 
 }
 
-.biography img {
+.texts img {
 
     width: 300px;
     border-radius: 40px;
     padding-top: 20px;
     margin-bottom: 30px;
-
-}
-
-.buttons {
-
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    margin-bottom: 20px;
-
-}
-
-.buttons a {
-
-    text-decoration: none;
-    color: white;
-    font-family: "Quicksand", sans-serif;
-    padding: 40px;
-    font-size: 30px;
 
 }
