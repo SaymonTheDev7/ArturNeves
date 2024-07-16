@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Artur Neves Höpner</title>
-    <link rel="stylesheet" href="CSS/biografia.css">
+    <link rel="stylesheet" href="CSS/biografia.css  ">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 
@@ -22,11 +22,29 @@
 
             </div>
            
-            <img src="ASSETS/3ListrasHeader.png" alt="Menu de 3 listras">
+            <div class="mobile-menu-icon">
+
+                <button onclick="menuShow()"><img class="icon" src="ASSETS/3ListrasHeader.png" alt="3 listrars menu"></button>
+
+            </div>
+
+            <div class="mobile-menu">
+
+                <ul>
+
+                    <li class="nav-item"><a href="index.html">Início</a></li>
+                    <li class="nav-item"><a href="biografia.html">Biografia</a></li>
+                    <li class="nav-item"><a href="conquistas.html">Conquistas</a></li>
+
+                </ul>
+
+            </div>
 
         </div>
 
     </header>
+
+    <script src="menu.js"></script>
 
     <main>
 
@@ -73,3 +91,12 @@
         </section>
 
     </main>
+
+    <footer>
+
+        <p>Todos os direitos reservados a Saymon Oliveira de castro. 2024.</p>
+
+    </footer>
+
+</body>
+</html>
