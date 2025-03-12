@@ -1,2 +1,2 @@
 # ArturNeves
- Site do meu amigo Artur Neves
+ Site pro meu amigo Artur Neves
